@@ -1,0 +1,56 @@
+.gtp__features{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.gtp_features_title{
+    flex: 1;
+    width: 100%;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+}
+.gtp_features_title h2{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    margin-bottom: 1rem;
+}
+.gtp_features_title a{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FF8A71;
+}
+.gtp__features_content{
+    flex: 1.5;
+    width: 100%;
+}
+.gtp__features_content .gpt__feature_title h3{
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 990px) {
+    .gtp__features{
+        flex-direction: column;
+    }
+    .gtp_features_title{
+        margin: 2rem 0rem;
+    }
+    .gtp_features_title h2{
+        font-size: 24px;
+        line-height: 30px;
+
+    }
+    .gtp_features_title a{
+        font-size: 14px;
+        line-height: 24px;
+    }
+}

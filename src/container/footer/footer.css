@@ -1,0 +1,106 @@
+.gpt_footer{
+    background: #031B34;
+}
+.gpt_footer_heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gpt_footer_heading h3{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.gpt_footer_heading a{
+    font-size: 18px;
+    line-height: 21px;
+    padding: 1rem;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    margin-top: 2rem;
+
+}
+.gpt_footer_content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+
+}
+.gpt_footer_logo_link{
+    min-width: 200px;
+    flex: 1.3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.gpt_footer_logo_link img{
+    width: 118px;
+    height: 30px;
+}
+.gpt_footer_logo_link p{
+    font-size: 12px;
+    line-height: 14px;
+    font-family: var(--font-family);
+    color: #FFFFFF;
+    max-width: 100px;
+    margin-top: 1rem;
+}
+.gpt_footer_links{
+    flex: 1;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.gpt_footer_links h5{
+    font-family: var(--font-family);
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.gpt_footer_links a{
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-top: 1.5rem;
+}
+.gpt_footer_copyright p{
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-top: 3rem;
+    text-align: center;
+}
+@media screen and (max-width:700px) {
+    .gpt_footer_content{
+        flex-direction: column;
+    } 
+    .gpt_footer_links {
+        margin-top: 3rem;
+    }
+    .gpt_footer_heading h3{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .gpt_footer_heading a{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 1rem;
+        color: #FFFFFF;
+    }
+    .gpt_footer_logo_link img{
+        width: 90px;
+        height: 25px;
+    }
+}
+
+

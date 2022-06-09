@@ -1,0 +1,13 @@
+.gpt__brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.gpt_brand_item{
+    margin: 0.5rem;
+}
+.gpt_brand_item img{
+    width: 71.1px;
+    height: 24.15px;
+}

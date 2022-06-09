@@ -1,0 +1,88 @@
+.gpt_whatgpt{
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+    background: var(--color-footer);
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.gpt__whatgpt_feature .gpt_feature_text{
+    max-width: 700px;
+}
+.gpt_whatgpt_heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:4rem 0rem 2rem;
+}
+.gpt_whatgpt_heading h2{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    max-width: 520px;
+}
+.gpt_whatgpt_heading p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FF8A71;
+}
+.gpt_whatgpt__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.gpt_whatgpt__content .gpt__feature{
+    flex: 1;
+    flex-direction: column;
+    min-width: 190px;
+    margin: 1rem;
+    display: unset;
+}
+@media screen and (max-width: 850px) {
+    .gpt_whatgpt_heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .gpt_whatgpt_heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .gpt__whatgpt_feature .gpt__feature,
+    .gpt_whatgpt__content .gpt__feature{
+        flex-direction: column;
+        margin: 1rem 0rem;
+    }
+    .gpt_whatgpt_heading h2{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .gpt_whatgpt_heading p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
