@@ -3,7 +3,7 @@ import Feature from '../../conponents/feature/Feature'
 import './whatGPT3.css'
 function WhatGPT3() {
   return (
-    <div className='gpt_whatgpt section__margin' id="whatgpt">
+    <div className='gpt_whatgpt section__margin' id="wgpt">
           <div className='gpt__whatgpt_feature'>
               <Feature title="What is GPT-3" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by." />
           </div>

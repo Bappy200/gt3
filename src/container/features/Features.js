@@ -22,7 +22,7 @@ const featuresInfo = [
 ]
 function Features() {
   return (
-    <div className='gtp__features section__padding'>
+    <div className='gtp__features section__padding' id="features">
         <div className='gtp_features_title'>
               <h2 className='gradient__text'>The Future is Now and You Just Need To Realize It. Step into Future Today. Make it Happen.</h2>
               <a href='#start'>Request Early Access to Get Started</a>

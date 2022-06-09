@@ -4,7 +4,7 @@ import { blog1, blog2, blog3, blog4, blog5 } from './import'
 import './blog.css'
 function Blog() {
   return (
-    <section className='gpt_section section__padding'>
+    <section className='gpt_section section__padding' id="blog">
         <h2 className='gradient__text'>A lot is happening are blogging about it.</h2>
         <div className='gpt_blog'>
               <div className='gpt_blog_big_article'>
